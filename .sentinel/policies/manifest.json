@@ -1,0 +1,10 @@
+{
+	"records": [
+		{
+			"key": "allowed-terraform-version",
+			"source": "./allowed-terraform-version.sentinel",
+			"sourceSum": "",
+			"dest": "C:/Users/tekstudent/Downloads/repos/learn-terraform-enforce-policies/allowed-terraform-version.sentinel"
+		}
+	]
+}
