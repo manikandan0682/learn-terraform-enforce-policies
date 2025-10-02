@@ -5,7 +5,7 @@ policy "allowed-terraform-version" {
   enforcement_level = "advisory"
 }
 
-mock "tfconfig" {
+/* mock "tfconfig" {
   module {
     source = "testdata/mock-tfconfig.sentinel"
   }
@@ -63,5 +63,5 @@ mock "tfrun" {
   module {
     source = "testdata/mock-tfrun.sentinel"
   }
-}
+} */
 
