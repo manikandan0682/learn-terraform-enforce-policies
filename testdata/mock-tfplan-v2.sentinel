@@ -1603,7 +1603,7 @@ resource_changes = {
 			],
 			"after": {
 				"arn":         "arn:aws:ec2:us-west-1:992998287859:security-group/sg-08fb5dfb6284065f9",
-				"description": "Security group for servers with HTTP ports open within VPC",
+				"description": "Security group for web-servers with HTTP ports open within VPC",
 				"egress": [
 					{
 						"cidr_blocks": [
