@@ -1,0 +1,56 @@
+id = "run-TL23p9CTEMKGiVxY"
+created_at = "2025-10-02T18:11:33.408Z"
+created_by = "gh-webhooks-policy-as-code-training-aY1JrZaTad"
+message = "encrypted volume"
+commit_sha = "217a0eda448056ee8f2b12c1332e6e967c8c6245"
+speculative = false
+is_destroy = false
+refresh = true
+refresh_only = false
+replace_addrs = null
+target_addrs = null
+project = {
+	"id":   "prj-87zfFGk3tY6vUquJ",
+	"name": "policy-as-code",
+}
+
+variables = {
+	"AWS_ACCESS_KEY_ID": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"AWS_SECRET_ACCESS_KEY": {
+		"category":  "env",
+		"sensitive": true,
+	},
+	"instance_count": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+	"instance_type": {
+		"category":  "terraform",
+		"sensitive": false,
+	},
+}
+
+organization = {
+	"name": "policy-as-code-training",
+}
+
+workspace = {
+	"auto_apply":     false,
+	"created_at":     "2025-10-02T12:50:34.024Z",
+	"description":    null,
+	"execution_mode": "default",
+	"id":             "ws-xPXZfURUoJjSoLVg",
+	"name":           "policy-dev-Mani",
+	"tag_bindings":   [],
+	"tags":           [],
+	"vcs_repo": {
+		"branch":             "",
+		"display_identifier": "manikandan0682/learn-terraform-variables",
+		"identifier":         "manikandan0682/learn-terraform-variables",
+		"ingress_submodules": false,
+	},
+	"working_directory": null,
+}
