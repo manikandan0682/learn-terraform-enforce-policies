@@ -21,6 +21,6 @@ mock "tfrun" {
 
 test {
   rules = {
-    main = true
+    main = false
   }
 }
